@@ -10,9 +10,9 @@ function App() {
     <Router>
       <Routes>
         <Route path='/header' element={<Header/>}/>
+        <Route path='/services' element={<Services/>}/>
         <Route path='/footer' element={<Footer/>}/>
         <Route path='/' element={<Layout/>}/>
-        <Route path='/services' element={<Services/>}/>
       </Routes>
     </Router>
   );
